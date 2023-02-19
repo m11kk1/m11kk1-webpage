@@ -16,7 +16,7 @@ function hashPassword(password) {
 var users = [
   { username: "Owner", password: hashPassword("!#¤%&/()=?") },
   { username: "julius", password: hashPassword("Juli#123") },
-  { username: "Nova", password: hashPassword("nova$sNice") },
+  { username: "Nova", password: hashPassword("nova") },
 ];
 
 // Login function to validate user input
